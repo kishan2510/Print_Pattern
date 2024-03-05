@@ -11,27 +11,60 @@ namespace Print_Pattern
     {
         static void Main(string[] args)
         {
-            // Hollow_square(6);
-            // Number_triangle_Pattern(6);
-            //Number_increasing_Pyramid_Pattern(6);
-            // Number_increasing_reverse_Pyramid_Pattern(6);
-            // Number_changing_Pyramid_Pattern(6);
-            //  Zero_One_Triangle_Pattern(6);
-            //  Palindrome_Triangle_Pattern(6);
-            //Rhombus_Pattern(6);
-            // Diamond_Star_Pattern(6);
-            //Mirror_Image_Triangle_Pattern(6);
-            // Hollow_Triangle_Pattern(9);
-            //Hollow_Reverse_Triangle_Pattern(6);
-            //Hollow_Hourglass_Pattern(6);
-            //Hollow_Diamond_Pyramid(6);
-             // Pascal_Triangle(6);
-        
+            int n;
+            Console.WriteLine("Enter the number of rows:-");
+            n=Convert.ToInt32(Console.ReadLine());
+            Hollow_square(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Number_triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Number_increasing_Pyramid_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Number_increasing_reverse_Pyramid_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Number_changing_Pyramid_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Zero_One_Triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Palindrome_Triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Rhombus_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Diamond_Star_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Mirror_Image_Triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Hollow_Triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Hollow_Reverse_Triangle_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Hollow_Hourglass_Pattern(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Hollow_Diamond_Pyramid(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
+            Pascal_Triangle(n);
+            Console.Write("-------------------------------------------");
+            Console.WriteLine(" ");
 
 
 
 
-                Console.ReadKey(); 
+
+            Console.ReadKey(); 
         }
         public static void Hollow_square(int n)
         {
